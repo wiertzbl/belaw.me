@@ -1,6 +1,6 @@
 ---
-title: 'My First Blog Post'
+title: 'Placeholder'
 date: '2023-07-01'
 ---
 
-This is the content of my first blog post. You can write **Markdown** here!
+I will start soon writing down my thoughts here!
