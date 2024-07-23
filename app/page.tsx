@@ -19,7 +19,7 @@ const Introduction: React.FC = () => (
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to My Personal Website</h1>
+      <h1>Welcome!</h1>
       <p>This is where I'll share my thoughts and projects.</p>
       <Introduction />
     </main>
