@@ -5,13 +5,13 @@ const Introduction: React.FC = () => (
     <h2>About Me</h2>
     <p>
       I'm Bela Wiertz, a technologist based in Berlin.{"\n"} 
-      I'm passionate about europe, startups, progress, and I love sports.{"\n"}
+      I'm passionate about europe, startups, progress.{"\n"}
       Right now I play football, padel and beach volleyball.
     </p>
     <p>
-      I invested in software infrastructure early-stage startups for 3 years.{"\n"} 
+      I invested in software infra startups for 3 years.{"\n"} 
       I would describe myself as a technical business person.{"\n"} 
-      I'm always excited to take on new challenges and usually have too many side projects to finish.
+      I'm always excited to take on new challenges and usually have several side projects at a time.
     </p>
   </section>
 );
