@@ -1,4 +1,10 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Projects | Bela Wiertz',
+  description: 'Explore the various projects I have contributed to, collaborated with, or founded, including ventures in AI, Dev & Infra, Fashion E-Commerce, and more.',
+};
 
 const projects = [
     {

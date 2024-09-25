@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import { getPostData, getSortedPostsData } from '../../utils/posts'
 
 export async function generateStaticParams() {
@@ -5,6 +6,28 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     id: post.id,
   }))
+}
+
+// New function to generate dynamic metadata
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const postData = await getPostData(params.id)
+  const description = `Read about ${postData.title} in Bela Wiertz's blog.`
+  return {
+    title: `${postData.title} | Bela Wiertz Blog`,
+    description,
+    openGraph: {
+      title: postData.title,
+      description,
+      type: 'article',
+      publishedTime: postData.date,
+      authors: ['Bela Wiertz'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: postData.title,
+      description,
+    },
+  }
 }
 
 export default async function Post({ params }: { params: { id: string } }) {

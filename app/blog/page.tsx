@@ -1,5 +1,11 @@
 import Link from 'next/link'
 import { getSortedPostsData } from '../utils/posts'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Blog | Bela Wiertz',
+  description: 'Read the latest articles from Bela Wiertz\'s blog.',
+}
 
 export default function Blog() {
   const allPostsData = getSortedPostsData()
@@ -14,7 +20,7 @@ export default function Blog() {
               {title}
             </Link>
             <br />
-            <small>{date}</small>
+            <small>{new Date(date).toLocaleDateString()}</small>
           </li>
         ))}
       </ul>
