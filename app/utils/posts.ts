@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import { parseISO } from 'date-fns';
 
 const postsDirectory = path.join(process.cwd(), '_posts')
 
@@ -21,10 +22,12 @@ export function getSortedPostsData() {
   })
 
   return allPostsData.sort((a, b) => {
-    if (a.date < b.date) {
-      return 1
+    const dateA = parseISO(a.date);
+    const dateB = parseISO(b.date);
+    if (dateA < dateB) {
+      return 1;
     } else {
-      return -1
+      return -1;
     }
   })
 }

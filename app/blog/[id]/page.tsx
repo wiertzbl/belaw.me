@@ -35,7 +35,7 @@ export default async function Post({ params }: { params: { id: string } }) {
   return (
     <main>
       <h1>{postData.title}</h1>
-      <div>{postData.date}</div>
+      <div>{new Date(postData.date).toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' })}</div>
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </main>
   )

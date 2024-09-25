@@ -20,7 +20,7 @@ export default function Blog() {
               {title}
             </Link>
             <br />
-            <small>{new Date(date).toLocaleDateString()}</small>
+            <small>{new Date(date).toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' })}</small>
           </li>
         ))}
       </ul>
