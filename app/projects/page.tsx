@@ -2,8 +2,8 @@ import React from 'react';
 
 const projects = [
     {
-        name: 'TKM VC',
-        description: 'Early-Stage VC',
+        name: 'Early-Stage VC',
+        description: 'Investments in AI, Dev & Infra',
         period: '2021-2024',
         link: null
     },
@@ -26,11 +26,17 @@ const projects = [
       link: 'https://n8n-automation.com'
     },
     {
-      name: '{Infra: Berlin}',
+      name: '{Tech: Berlin}',
       description: 'Tech Community',
       period: '2024-Today',
-      link: 'https://infra.berlin'
+      link: 'https://www.techberlin.io'
     },
+    {
+      name: 'LangueBot',
+      description: 'AI Language Learning App',
+      period: '2024-Today',
+      link: 'https://www.languebot.com'
+    }
     // Add more projects here
 ];
   

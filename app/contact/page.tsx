@@ -3,7 +3,7 @@ import ContactLinks from "./ContactLinks";
 const contactLinks = [
   { name: 'Twitter', url: 'https://twitter.com/blwiertz' },
   { name: 'LinkedIn', url: 'https://linkedin.com/in/bela-wiertz' },
-  { name: 'Email', url: 'mailto:contact@belaw.me' },
+  { name: 'Email', url: 'mailto:bela.wiertz@gmail.com' },
 ];
 
 export default function Contact() {
