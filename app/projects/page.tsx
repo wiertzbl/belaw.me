@@ -48,8 +48,8 @@ const projects = [
       description: 'Animate Your Favorite Album Covers',
       period: '2024-Today',
       link: 'https://www.albumcoveranimator.com'
-    },
-    // Add more projects here
+    }
+
 ];
   
   // Add more projects here
