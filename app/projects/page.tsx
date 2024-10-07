@@ -42,7 +42,13 @@ const projects = [
       description: 'AI Language Learning App',
       period: '2024-Today',
       link: 'https://www.languebot.com'
-    }
+    },
+    {
+      name: 'AlbumCoverAnimator',
+      description: 'Animate Your Favorite Album Covers',
+      period: '2024-Today',
+      link: 'https://www.albumcoveranimator.com'
+    },
     // Add more projects here
 ];
   
