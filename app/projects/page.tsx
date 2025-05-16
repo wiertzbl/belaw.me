@@ -8,51 +8,32 @@ export const metadata: Metadata = {
 
 const projects = [
     {
-        name: 'Early-Stage VC',
-        description: 'Investments in AI, Dev & Infra',
-        period: '2021-2024',
-        link: null
-    },
-    {
-        name: 'Various Startups',
-        description: 'Growth | Ops | Marketing',
+        name: 'Investing in Startups',
+        description: 'Focus on AI, Dev & Infra - First as a VC, now as an Angel',
         period: '2021-Today',
         link: null
     },
     {
-      name: 'FiveZeroEight',
-      description: 'Fashion E-Commerce',
-      period: '2020-2021',
-      link: null
-    },
-    {
       name: 'N8N Automation',
-      description: 'Tech Blog',
+      description: 'Biggest Independent Blog on n8n',
       period: '2023-Today',
       link: 'https://n8n-automation.com'
     },
     {
-      name: '{Tech: Berlin}',
-      description: 'Tech Community',
+      name: '{Tech: Europe}',
+      description: "Europe's Builder Community",
       period: '2024-Today',
-      link: 'https://www.techberlin.io'
+      link: 'https://www.techeurope.io'
     },
     {
-      name: 'LangueBot',
-      description: 'AI Language Learning App',
-      period: '2024-Today',
-      link: 'https://www.languebot.com'
-    },
-    {
-      name: 'AlbumCoverAnimator',
-      description: 'Animate Your Favorite Album Covers',
-      period: '2024-Today',
-      link: 'https://www.albumcoveranimator.com'
+      name: 'European Infra Stack',
+      description: 'Build your Products on European Infrastructure',
+      period: '2025-Today',
+      link: 'https://www.infraeurope.dev'
     }
 
 ];
   
-  // Add more projects here
 
 const Projects = () => {
   return (
